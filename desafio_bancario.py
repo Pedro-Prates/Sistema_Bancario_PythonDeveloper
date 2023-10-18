@@ -12,8 +12,11 @@ menu = """
 saldo = 0
 limite = 500
 numero_saques = 0
-extratos = {# usando {} é possível definir o nome de cada variável contida em uma lista.
-            # para armazenar algo espefico na variável desta lista, basta usar o comando "lista["variável da lista"].append(conteúdo a ser armazenado)"
+
+# usando {} é possível definir o nome de cada variável contida em uma lista.
+# para armazenar algo espefico na variável desta lista, basta usar o comando "lista["variável da lista"].append(conteúdo a ser armazenado)"
+
+extratos = {
     "Extrato de Deposito": [],
     "Extrato de Saques": [],
     "Extrato Geral": []
